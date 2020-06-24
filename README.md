@@ -21,3 +21,5 @@ NOTE:
    
    pip install -r requirements.txt
    
+  NOTE: Before Running Welcome.py ensure you read through the images/readme.txt file.
+   
