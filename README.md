@@ -12,5 +12,7 @@ Follow instructions within the ino file for connection of MISO,Mosi
  ==============================================================       
     IF USING A DIFFERENT ARDUINO BOARD VISIT   ...              
    Install the python3.x.x dependencies by running
+   
+   
    pip install -r requirements.txt
    

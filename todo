@@ -1,0 +1,10 @@
+select case when exists ( select * from [user] where userid = id) then cast (1 as bit) else cast (0 as BIT) end
+
+select cast(count(1) as bit) as expr1 from [user] where (userid = 98798798)
+select CASE WHEN EXISTS(select * from users where user_id = 33) THEN CAST(1 as BIT) ELSE CAST(0 as BIT) END
+
+
+1. a snake game using tkinter
+2. a python proxy server
+3. Word Documents with gui
+4. 

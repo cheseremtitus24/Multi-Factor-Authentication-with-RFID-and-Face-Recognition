@@ -1,0 +1,23 @@
+User Table:
+User_ID 	Name (First_Name, Last_Name) 	Address 	Contact_Number
+
+
+
+Account Table:
+Account_Number 	User_ID 	Account_Type (Saving_Account, Current_Account, Over_draft_Account) 	Balance
+
+
+
+ATM Table:
+
+ATM _Number 	ATM_Place 	ATM _Cash_Limit
+
+
+
+Opening_Account Table:
+
+Date 	User_ID 	Account_Number 	ATM _Number
+
+Transaction Table:
+
+Date 	User_ID 	Account_Number 	ATM _Number 	Transaction_Type (Deposit_Cheque, Deposit_Cash, Withdraw_Cash)

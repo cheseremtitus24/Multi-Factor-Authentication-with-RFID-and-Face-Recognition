@@ -1,0 +1,3 @@
+SELECT *
+  FROM TABLE
+ WHERE instr(column, 'cats') > 0;
