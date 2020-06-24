@@ -1,0 +1,16 @@
+from tkinter import *
+
+toplvl = Tk()
+toplvl.title("Register New user")
+# toplvl.iconbitmap('register.ico')
+toplvl.geometry('600x500')
+# myButton = Button(toplvl, text="clieck me", fg='white', bg='black', width=12, height=2, relief=RIDGE)
+# myButton.pack()
+first_name = StringVar()
+lblFn = Label(toplvl,text="First_Name").place(x=50, y=100)
+fnentry = Entry(toplvl,textvariable=first_name).place(x=100, y=)
+lblFn = Label(toplvl,text="First_Name").pack()
+fnentry = Entry(toplvl,textvariable=first_name).pack()
+lblFn = Label(toplvl,text="First_Name").pack()
+fnentry = Entry(toplvl,textvariable=first_name).pack()
+toplvl.mainloop()
